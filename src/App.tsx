@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Snackbar from '@mui/material/Snackbar';
 
 // This is a mock function to generate a short code
 const generateShortCode = () => {
@@ -160,12 +159,6 @@ export default function ShortLinkGenerator() {
                   stroke-linecap="round"
                 />
               </svg>
-              <Snackbar
-                open={true}
-                autoHideDuration={3000}
-                onClose={() => {}}
-                message="This is a toast notification"
-              />
             </div>
           </div>
         )}
